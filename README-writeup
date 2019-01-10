@@ -1,0 +1,53 @@
+The test cases represent an exhaustive set of possible inputs the
+user might give to the program. The inputs cover boundary cases and
+equivalence classes. If invalid input is given to the program, then 
+we check if the program either throws an exception or returns an error code.
+For checking the error code, we verfiy if the error code for invalid inputs is
+consistently returned. If the program passes all the other test cases and 
+either the test cases for the exception or error code check passes, then we can
+accept this implementation.
+
+for the sqrt function the test suite validates the upper bound of the input 
+which is MAX_VAL for int and lower bound which is 0. There are a few tests 
+within the equivalence class. Also, it tests if the values above the upper and
+below the lower boundary return exception or error code. Thus if the function passes all the
+boundary and equivalence class tests and one of the exception or error code tests
+then we can accept the implementation.
+
+for the sqr function the test suite validates the upper bound of the input 
+which is 46340 for int and lower bound which is -46340. It also tests the 
+sqr(0) which is the lower bound output. There are a few tests 
+within the equivalence class. Also, it tests if the values above the upper and
+below the lower boundary return exception or error code. Thus if the function passes all the
+boundary and equivalence class tests and one of the exception or error code tests
+then we can accept the implementation.
+
+for the factorial function the test suite validates the upper bound of the input 
+which is 12 for int and lower bound which is 0. There are a few tests 
+within the equivalence class. Also, it tests if the values above the upper and
+below the lower boundary return exception or error code. Thus if the function passes all the
+boundary and equivalence class tests and one of the exception or error code tests
+then we can accept the implementation.
+
+for the sumUp function the test suite validates the upper bound of the input 
+which is 65535 for int and lower bound which is 0. There are a few tests 
+within the equivalence class. Also, it tests if the values above the upper and
+below the lower boundary return exception or error code. Thus if the function passes all the
+boundary and equivalence class tests and one of the exception or error code tests
+then we can accept the implementation.
+
+for the simpleFunctionXplusY the test suite validates the upper bound of the input 
+which is MAX_VAL for int and lower bound which is MIN_VAL.It also checks wether the sum of the
+two inputs is not above MAX_VAL and below MIN_VAL There are a few tests 
+within the equivalence class. Also, it tests if the values above the upper and
+below the lower boundary return exception or error code. Thus if the function passes all the
+boundary and equivalence class tests and one of the exception or error code tests
+then we can accept the implementation.
+
+for the despacer function the test suite validates the boundary condtion where there are 
+no single contiguous spaces, one single contiguous spaces and many single contiguous spaces.
+It also validates invalid input like null. It also checks for empty string and string with only 
+spaces. Therefore if the function passes all the tests then we can accept the implementation
+
+Therefore if the program passes all the above tests as mentioned and one of the exception or
+error code tests,then it can be accepted else it has to be rejected.
